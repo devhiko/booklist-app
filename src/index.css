@@ -1,10 +1,56 @@
 * {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
+  list-style: none;
 }
 
 body {
   margin: 0;
   /* dark mode */
   background: gray;
+  /* standard theme */
+  background: #553055;
+}
+
+.App {
+  background: #4c2a4c;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: #eee;
+}
+
+.navbar {
+  padding: 10px 20px;
+  text-align: center;
+  background: #6d3d6d;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: auto 15px;
+  padding: 10px;
+}
+
+.book-list li:hover {
+  text-decoration: line-through;
+}
+
+.navbar h1 {
+  margin: 10px;
+}
+
+.book-list {
+  background: #6d3d6d;
+  padding: 10px;
+}
+
+.book-list li {
+  margin: 10px 20px;
+  padding: 10px 10px;
+  background: #553055;
 }
