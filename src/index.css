@@ -54,3 +54,21 @@ body {
   padding: 10px 10px;
   background: #553055;
 }
+
+input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background: #6d3d6d;
+  border: none;
+}
+
+input[type='submit'] {
+  padding: 10px 60px;
+  border: none;
+  background: #6d3d6d;
+}
+
+input[type='submit']:hover {
+  background: #a35da3;
+}
